@@ -6,20 +6,21 @@
   <title>MOSHN — Launch Edition</title>
 
   <meta name="description" content="MOSHN Launch Edition – modern responsive landing page." />
+  <meta name="author" content="Khalid Al Obaidli" />
 
-  <link rel="stylesheet" href="assets/css/style.css" />
+  assets/css/style.css
 </head>
 <body>
 
-<a href="#main" class="skip-link">Skip to content</a>
+#mainSkip to content</a>
 
 <header class="nav">
   <div class="nav-inner">
     <div class="brand">MOSHN</div>
     <nav class="menu" aria-label="Main navigation">
-      <a href="#features">Features</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
+      #featuresFeatures</a>
+      #aboutAbout</a>
+      #contactContact</a>
     </nav>
   </div>
 </header>
@@ -35,43 +36,57 @@
       </p>
 
       <div class="hero-actions">
-        <a href="#contact" class="btn btn-light">Get Started</a>
-        <a href="#features" class="btn btn-dark">Learn More</a>
+        #contactGet Started</a>
+        #featuresLearn More</a>
       </div>
 
-      <img src="assets/images/hero.jpg" alt="MOSHN preview" class="hero-image" />
+      assets/images/hero.jpg
     </div>
   </section>
 
   <section id="features" class="section">
     <div class="wrap">
-      <h2>Features</h2>
-      <ul>
-        <li>Responsive design</li>
-        <li>Modern CSS</li>
-        <li>No JavaScript</li>
-      </ul>
+      <h2 class="title">Features</h2>
+      <div class="feature-grid">
+        <div class="item">
+          <h3>Responsive</h3>
+          <p>Works perfectly on mobile, tablet, and desktop.</p>
+        </div>
+        <div class="item">
+          <h3>Modern CSS</h3>
+          <p>Built using Grid, Flexbox, and CSS variables.</p>
+        </div>
+        <div class="item">
+          <h3>No JavaScript</h3>
+          <p>Fast, secure, and easy to maintain.</p>
+        </div>
+      </div>
     </div>
   </section>
 
   <section id="about" class="section">
     <div class="wrap">
-      <h2>About</h2>
-      <p>MOSHN is a clean landing page template designed for GitHub Pages.</p>
+      <h2 class="title">About MOSHN</h2>
+      <p class="desc">
+        MOSHN is a clean and professional landing page template designed to be
+        GitHub‑ready and production‑friendly.
+      </p>
     </div>
   </section>
 
   <section id="contact" class="section">
     <div class="wrap">
-      <h2>Contact</h2>
-      <p>Reach out to start your next project.</p>
+      <h2 class="title">Contact</h2>
+      <p class="desc">
+        Reach out to start your next project.
+      </p>
     </div>
   </section>
 
 </main>
 
 <footer class="footer">
-  <p>© 2026 MOSHN</p>
+  <p>© 2026 MOSHN. All rights reserved.</p>
 </footer>
 
 </body>
